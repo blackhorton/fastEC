@@ -1,9 +1,10 @@
 package com.ming.latte.app;
 
 /**
- * Created by Hortons
+ * @author Ming
  * on 2019/7/4
  */
+
 public enum ConfigType {
     //网络请求域名
     API_HOST,

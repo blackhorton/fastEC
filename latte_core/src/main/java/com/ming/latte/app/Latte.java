@@ -5,7 +5,7 @@ import android.content.Context;
 import java.util.WeakHashMap;
 
 /**
- * Created by Hortons
+ * @author Ming
  * on 2019/7/4
  */
 
