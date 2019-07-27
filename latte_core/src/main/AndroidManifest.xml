@@ -1,2 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ming.latte" />
+    package="com.ming.latte" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>
