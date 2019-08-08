@@ -68,7 +68,7 @@ public class SignUpDelegate extends LatteDelegate {
                             Log.d(TAG, response);
 //                            LatteLogger.json("USER_PROFILE", response);
                             SignHandler.onSignUp(response);
-                            Toast.makeText(getContext(), "验证通过", Toast.LEN\GTH_LONG).show();
+                            Toast.makeText(getContext(), "验证通过", Toast.LENGTH_LONG).show();
                         }
                     })
                     .build()
