@@ -7,8 +7,8 @@ import com.ming.latte.net.callback.IFailure;
 import com.ming.latte.net.callback.IRequest;
 import com.ming.latte.net.callback.ISuccess;
 import com.ming.latte.net.callback.RequestCallbacks;
-import com.ming.latte.ui.LatteLoader;
-import com.ming.latte.ui.LoaderStyle;
+import com.ming.latte.ui.loader.LatteLoader;
+import com.ming.latte.ui.loader.LoaderStyle;
 
 import java.util.Map;
 import java.util.WeakHashMap;
@@ -68,11 +68,11 @@ public class RestClient {
             REQUEST.onRequestStart();
         }
 
-        if (LOADER_STYLE != null) {
-            LatteLoader.showLoading(CONTEXT, LOADER_STYLE);
-        } else {
-            LatteLoader.showLoading(CONTEXT);
-        }
+//        if (LOADER_STYLE != null) {
+//            LatteLoader.showLoading(CONTEXT, LOADER_STYLE);
+//        } else {
+//            LatteLoader.showLoading(CONTEXT);
+//        }
 
         switch (method) {
             case GET:

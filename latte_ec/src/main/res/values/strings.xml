@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">latte_EC</string>
+    <string name="sign_up">注册</string>
+    <string name="sign_in">登录</string>
 </resources>

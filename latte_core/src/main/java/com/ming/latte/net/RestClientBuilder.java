@@ -6,7 +6,7 @@ import com.ming.latte.net.callback.IError;
 import com.ming.latte.net.callback.IFailure;
 import com.ming.latte.net.callback.IRequest;
 import com.ming.latte.net.callback.ISuccess;
-import com.ming.latte.ui.LoaderStyle;
+import com.ming.latte.ui.loader.LoaderStyle;
 
 import java.util.Map;
 import java.util.WeakHashMap;

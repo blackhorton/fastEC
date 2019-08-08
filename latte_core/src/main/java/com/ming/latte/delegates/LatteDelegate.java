@@ -6,4 +6,9 @@ package com.ming.latte.delegates;
  */
 
 public abstract class LatteDelegate extends PermissionCheckedDelegate {
+
+    @SuppressWarnings("unchecked")
+    public <T extends LatteDelegate> T getParentDelegate() {
+        return (T) getParentFragment();
+    }
 }

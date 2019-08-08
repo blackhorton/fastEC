@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.ming.latte.ui.LatteLoader;
+import com.ming.latte.ui.loader.LatteLoader;
 
 /**
  * @author Hortons

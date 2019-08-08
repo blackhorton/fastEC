@@ -2,8 +2,8 @@ package com.ming.latte.net.callback;
 
 import android.os.Handler;
 
-import com.ming.latte.ui.LatteLoader;
-import com.ming.latte.ui.LoaderStyle;
+import com.ming.latte.ui.loader.LatteLoader;
+import com.ming.latte.ui.loader.LoaderStyle;
 
 import retrofit2.Call;
 import retrofit2.Callback;
